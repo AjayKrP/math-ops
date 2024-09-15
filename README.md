@@ -1,23 +1,23 @@
 # Math Ops Package
 
-The `math-ops` npm package provides functionalities for both basic arithmetic operations and complex arithmetic expression evaluations. It supports addition, subtraction, multiplication, and division, as well as the evaluation of complex expressions with parentheses.
+The `@ajaykrp/math-ops` npm package provides functionalities for both basic arithmetic operations and complex arithmetic expression evaluations. It supports addition, subtraction, multiplication, and division, as well as the evaluation of complex expressions with parentheses.
 
 ## Installation
 
 You can install the package via npm:
 
 ```bash
-npm install math-ops
+npm install @ajaykrp/math-ops
 ```
 
-## Usage
+## Usag
 
 ### Basic Arithmetic Operations
 
 For basic arithmetic operations (addition, subtraction, multiplication, and division), use the `calculate` function.
 
 ```typescript
-import { calculate } from 'math-ops';
+import { calculate } from '@ajaykrp/math-ops';
 
 // Basic arithmetic operations
 const result1 = calculate('addition', 1, 2, 3); // 6
@@ -36,7 +36,7 @@ console.log(result4); // 2
 For evaluating complex arithmetic expressions, use the `ExpressionEvaluator` class.
 
 ```typescript
-import ExpressionEvaluator from 'math-ops';
+import ExpressionEvaluator from '@ajaykrp/math-ops';
 
 // Evaluating complex expressions
 const result1 = ExpressionEvaluator.evaluate('1 + 2 * 4 / 6'); // 2.3333
